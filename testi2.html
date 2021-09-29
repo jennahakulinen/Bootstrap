@@ -71,7 +71,7 @@
       </div>
     </div>
   </nav>
-  <section class="home">
+  <section class="home d-flex align-items-center">
     <div class="carouselContainer">
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000">
     <div class="carousel-inner">
@@ -90,7 +90,7 @@
     </div>
   </div>
 </div>
-<div class="container">
+<div class="container z-index-20">
   <div class="row">
     <div class="col-xl-10">
       <div class="text-center text-lg-start">
@@ -99,27 +99,28 @@
       </div>
     </div>
   </div>
-</div>
-<div class="search-bar mt-5 p-3 p-lg-1 ps-lg-4">
-  <form action="#">
-    <div class="row">
-      <div class="col-lg-4 d-flex align-items-center form-group">
-        <input type="text" name="search" placeholder="What are you looking for?">
-      </div>
-      <div class="col-lg-3">
-        <input type="text" name="location" placeholder="Location">
-      </div>
-      <div class="col-lg-3">
-        <input type="text" name="location" placeholder="Categories">
-      </div>
-      <div class="col-lg-2">
-        <button class="btn btn-primary" type="submit">
-          Search
-        </button>
+
+<div class="home-search mt-5 p-3 p-lg-1 ps-lg-4 z-index-20">
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">What are you looking for?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Location</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Categories</a>
+      </li>
+    </ul>
+        <div class="nav-item">
+          <button class="btn btn-primary" type="submit">
+            Search
+          </button>
+        </div>
       </div>
     </div>
-  </form>
-</div>
+  </div>
+  </div>
 </section>
 <section class="py-6 bg-gray-100">
   <div class="container">
