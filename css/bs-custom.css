@@ -7890,7 +7890,7 @@ h1, .h1, h2, .h2, h3, .h3, h5, .h5 {
 .nav {
   background-color: #fff; }
 
-.home-search {
+.home-search, .home-search > ul {
   border-radius: 10rem;
   background: #fff;
   display: flex;
@@ -7923,3 +7923,13 @@ h1, .h1, h2, .h2, h3, .h3, h5, .h5 {
 
 .h-100 {
   height: 100% !important; }
+
+p {
+  color: #212529;
+  cursor: text; }
+
+#categories {
+  cursor: pointer; }
+
+.haku {
+  margin-top: -15px; }
